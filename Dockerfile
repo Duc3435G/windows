@@ -45,5 +45,6 @@ ENV VERSION="11"
 ENV RAM_SIZE="16G"
 ENV CPU_CORES="4"
 ENV DISK_SIZE="64G"
+ENV ARGUMENTS="-vga vmware"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
