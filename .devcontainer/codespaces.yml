@@ -3,8 +3,8 @@ services:
     container_name: windows
     image: ghcr.io/dockur/windows
     environment:
+      RAM_SIZE: "half"
       DISK_SIZE: "max"
-      RAM_SIZE: "max"
       CPU_CORES: "max"
       ARGUMENTS: "-vga vmware"
     devices:
